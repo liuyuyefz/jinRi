@@ -1,8 +1,8 @@
 //
-//  jinRiCompanyAppDelegate.h
-//  jinRiCompany
+//  GRETestAppDelegate.h
+//  GRETest
 //
-//  Created by lyy on 13-6-26.
+//  Created by lyy on 13-3-26.
 //  Copyright __MyCompanyName__ 2013年. All rights reserved.
 //
 
@@ -40,6 +40,12 @@ public:
     @param  the pointer of the application instance
     */
     virtual void applicationWillEnterForeground();
+    
+    static int S1NaviSelected;
+    static int S2LeftSelected;
+    static float S2Alpha;
+    static int S2SceneNum;
+    static int  S2SelectedScene;
 };
 
 #endif // _APP_DELEGATE_H_
