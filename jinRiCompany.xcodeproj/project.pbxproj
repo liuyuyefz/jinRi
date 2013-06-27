@@ -242,7 +242,15 @@
 		682283A3177B2B0900E0DFBF /* S23DetailIntro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228389177B2B0900E0DFBF /* S23DetailIntro.cpp */; };
 		682283A4177B2B0900E0DFBF /* S23DetailIntro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */; };
 		682283A5177B2B0900E0DFBF /* ScriptParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822838C177B2B0900E0DFBF /* ScriptParser.cpp */; };
-		682283A7177B2B1500E0DFBF /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 682283A6177B2B1500E0DFBF /* ipad */; };
+		68F2A8AB177B3CB400798B5D /* S3SijiYangSheng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */; };
+		68F2A8AD177B3DC200798B5D /* S3SijiYangSheng.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */; };
+		68F2A8B0177B3E5000798B5D /* S4HeZuo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */; };
+		68F2A8B2177B3E6E00798B5D /* S4HeZuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */; };
+		68F2A8B5177B3F2200798B5D /* S31MeiShi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */; };
+		68F2A8B8177B3F8700798B5D /* S4Detail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8B6177B3F8700798B5D /* S4Detail.cpp */; };
+		68F2A8BB177B3FBB00798B5D /* S4Detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8B9177B3FBA00798B5D /* S4Detail.plist */; };
+		68F2A8BC177B3FBB00798B5D /* S31MeiShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */; };
+		68F2A8BE177B4B7C00798B5D /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8BD177B4B7C00798B5D /* ipad */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -748,7 +756,19 @@
 		6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S23DetailIntro.plist; path = Classes/S23DetailIntro.plist; sourceTree = "<group>"; };
 		6822838C177B2B0900E0DFBF /* ScriptParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScriptParser.cpp; path = Classes/ScriptParser.cpp; sourceTree = "<group>"; };
 		6822838D177B2B0900E0DFBF /* ScriptParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptParser.h; path = Classes/ScriptParser.h; sourceTree = "<group>"; };
-		682283A6177B2B1500E0DFBF /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipad; path = Resources/ipad; sourceTree = "<group>"; };
+		68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S3SijiYangSheng.cpp; path = Classes/S3SijiYangSheng.cpp; sourceTree = "<group>"; };
+		68F2A8AA177B3CB400798B5D /* S3SijiYangSheng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S3SijiYangSheng.h; path = Classes/S3SijiYangSheng.h; sourceTree = "<group>"; };
+		68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S3SijiYangSheng.plist; path = Classes/S3SijiYangSheng.plist; sourceTree = "<group>"; };
+		68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S4HeZuo.cpp; path = Classes/S4HeZuo.cpp; sourceTree = "<group>"; };
+		68F2A8AF177B3E4F00798B5D /* S4HeZuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4HeZuo.h; path = Classes/S4HeZuo.h; sourceTree = "<group>"; };
+		68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S4HeZuo.plist; path = Classes/S4HeZuo.plist; sourceTree = "<group>"; };
+		68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S31MeiShi.cpp; path = Classes/S31MeiShi.cpp; sourceTree = "<group>"; };
+		68F2A8B4177B3F2200798B5D /* S31MeiShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S31MeiShi.h; path = Classes/S31MeiShi.h; sourceTree = "<group>"; };
+		68F2A8B6177B3F8700798B5D /* S4Detail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S4Detail.cpp; path = Classes/S4Detail.cpp; sourceTree = "<group>"; };
+		68F2A8B7177B3F8700798B5D /* S4Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4Detail.h; path = Classes/S4Detail.h; sourceTree = "<group>"; };
+		68F2A8B9177B3FBA00798B5D /* S4Detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S4Detail.plist; path = Classes/S4Detail.plist; sourceTree = "<group>"; };
+		68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S31MeiShi.plist; path = Classes/S31MeiShi.plist; sourceTree = "<group>"; };
+		68F2A8BD177B4B7C00798B5D /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipad; path = Resources/ipad; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -819,7 +839,7 @@
 		6822808E177B2AC100E0DFBF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				682283A6177B2B1500E0DFBF /* ipad */,
+				68F2A8BD177B4B7C00798B5D /* ipad */,
 				6822808F177B2AC100E0DFBF /* CloseNormal.png */,
 				68228091177B2AC100E0DFBF /* CloseSelected.png */,
 				68228093177B2AC100E0DFBF /* Default.png */,
@@ -1787,6 +1807,18 @@
 				68228389177B2B0900E0DFBF /* S23DetailIntro.cpp */,
 				6822838A177B2B0900E0DFBF /* S23DetailIntro.h */,
 				6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */,
+				68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */,
+				68F2A8AA177B3CB400798B5D /* S3SijiYangSheng.h */,
+				68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */,
+				68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */,
+				68F2A8B4177B3F2200798B5D /* S31MeiShi.h */,
+				68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */,
+				68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */,
+				68F2A8AF177B3E4F00798B5D /* S4HeZuo.h */,
+				68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */,
+				68F2A8B6177B3F8700798B5D /* S4Detail.cpp */,
+				68F2A8B7177B3F8700798B5D /* S4Detail.h */,
+				68F2A8B9177B3FBA00798B5D /* S4Detail.plist */,
 				6822838C177B2B0900E0DFBF /* ScriptParser.cpp */,
 				6822838D177B2B0900E0DFBF /* ScriptParser.h */,
 			);
@@ -1868,7 +1900,11 @@
 				682283A0177B2B0900E0DFBF /* S13News.plist in Resources */,
 				682283A2177B2B0900E0DFBF /* S14Brand.plist in Resources */,
 				682283A4177B2B0900E0DFBF /* S23DetailIntro.plist in Resources */,
-				682283A7177B2B1500E0DFBF /* ipad in Resources */,
+				68F2A8AD177B3DC200798B5D /* S3SijiYangSheng.plist in Resources */,
+				68F2A8B2177B3E6E00798B5D /* S4HeZuo.plist in Resources */,
+				68F2A8BB177B3FBB00798B5D /* S4Detail.plist in Resources */,
+				68F2A8BC177B3FBB00798B5D /* S31MeiShi.plist in Resources */,
+				68F2A8BE177B4B7C00798B5D /* ipad in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2079,6 +2115,10 @@
 				682283A1177B2B0900E0DFBF /* S14Brand.cpp in Sources */,
 				682283A3177B2B0900E0DFBF /* S23DetailIntro.cpp in Sources */,
 				682283A5177B2B0900E0DFBF /* ScriptParser.cpp in Sources */,
+				68F2A8AB177B3CB400798B5D /* S3SijiYangSheng.cpp in Sources */,
+				68F2A8B0177B3E5000798B5D /* S4HeZuo.cpp in Sources */,
+				68F2A8B5177B3F2200798B5D /* S31MeiShi.cpp in Sources */,
+				68F2A8B8177B3F8700798B5D /* S4Detail.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2212,6 +2252,7 @@
 				68228366177B2ACC00E0DFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,7 +6,8 @@
 
 #include "S1CompanyInfo.h"
 #include "S2ZiBuLei.h"
-
+#include "S31MeiShi.h"
+#include "S4Detail.h"
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
 #define origin CCDirector::sharedDirector()->getVisibleOrigin()//可视区域原点
 
@@ -153,14 +154,14 @@ void S1Main::menuCallback(CCObject* pSender)
         case btnTag+2:
             AppDelegate::S2LeftSelected = 1;
              AppDelegate::S1NaviSelected = 3;
-            //newScene->addChild(S2ZiBuLei::create());
-           
+             newScene->addChild(S31MeiShi::create());
+            
             break;
             
         case btnTag+3:
             AppDelegate::S2LeftSelected = 1;
             AppDelegate::S1NaviSelected = 4;
-            //newScene->addChild(S2ZiBuLei::create());
+            newScene->addChild(S4Detail::create());
             break;
             
         default:
