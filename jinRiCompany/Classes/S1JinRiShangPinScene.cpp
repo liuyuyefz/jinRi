@@ -1,17 +1,17 @@
 //
-//  JinRiShangPinScene.cpp
+//  S1S1JinRiShangPinScene.cpp
 //  GreTest
 //
 //  Created by lyy on 13-6-23.
 //
 //
 
-#include "JinRiShangPinScene.h"
+#include "S1JinRiShangPinScene.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
 
-#include "S1CompanyInfo.h"
+#include "S11CompanyInfo.h"
 #include "S13News.h"
 #include "S14Brand.h"
 
@@ -20,7 +20,7 @@
 
 #define s1FontName_macro "Arial"
 
-#define classPlistName_macro "JinRiShangPin"
+#define classPlistName_macro "S1JinRiShangPin"
 #define zNum 100
 #define btnTag 100
 
@@ -28,7 +28,7 @@
 using namespace cocos2d;
 using namespace std;
 
-bool JinRiShangPin::initInfo()
+bool S1JinRiShangPin::initInfo()
 {
     bool bRet = false;
 	do
@@ -44,7 +44,7 @@ bool JinRiShangPin::initInfo()
     
 	return bRet;
 }
-bool JinRiShangPin::setUpSubClass()
+bool S1JinRiShangPin::setUpSubClass()
 {
 	bool bRet = false;
 	do
@@ -97,7 +97,7 @@ bool JinRiShangPin::setUpSubClass()
                                                                sprite1,
                                                                sprite2,
                                                                this,
-                                                               menu_selector(JinRiShangPin::menuCallback));
+                                                               menu_selector(S1JinRiShangPin::menuCallback));
 			CC_BREAK_IF(! aItem);
 			aItem->setPosition(pLabel->getPosition());
             aItem->setContentSize(pLabel->getContentSize());
@@ -120,14 +120,14 @@ bool JinRiShangPin::setUpSubClass()
 	return bRet;
 }
 
-void JinRiShangPin::menuCallback(CCObject* pSender)
+void S1JinRiShangPin::menuCallback(CCObject* pSender)
 {
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
     CCScene *newScene = CCScene::create();
     switch (aItem->getTag())
     {
         case btnTag+1:
-            newScene->addChild(S1CompanyInfo::create());
+            newScene->addChild(S11CompanyInfo::create());
             
             break;
         case btnTag+3:

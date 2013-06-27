@@ -13,9 +13,9 @@
 #include <string.h>
 #include "cocos-ext.h"
 
-#include "JinRiShangPinScene.h"
+#include "S1JinRiShangPinScene.h"
 
-class S13More : public JinRiShangPin
+class S13More : public S1JinRiShangPin
 {
 public:
     static cocos2d::CCScene* scene();

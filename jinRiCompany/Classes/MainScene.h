@@ -1,10 +1,10 @@
-#ifndef __S1MAIN_SCENE_H__
-#define __S1MAIN_SCENE_H__
+#ifndef __Main_SCENE_H__
+#define __Main_SCENE_H__
 
 #include "cocos2d.h"
 #include <string.h>
 
-class S1Main : public cocos2d::CCLayer
+class Main : public cocos2d::CCLayer
 {
 public:
     virtual bool init();

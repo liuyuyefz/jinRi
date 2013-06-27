@@ -1,13 +1,13 @@
 //
-//  S2PicDetail.h
+//  S22PicDetail.h
 //  JinRiCompany
 //
 //  Created by lyy on 13-6-25.
 //
 //
 
-#ifndef __JinRiCompany__S2PicDetail__
-#define __JinRiCompany__S2PicDetail__
+#ifndef __JinRiCompany__S22PicDetail__
+#define __JinRiCompany__S22PicDetail__
 
 #include "cocos2d.h"
 #include <string.h>
@@ -15,13 +15,13 @@
 
 #include "S2ZiBu.h"
 
-class S2PicDetail : public S2ZiBu, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate
+class S22PicDetail : public S2ZiBu, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate
 {
 public:
     static cocos2d::CCScene* scene();
     virtual bool initInfo2();
     virtual bool setUpSubClass2();
-    CREATE_FUNC(S2PicDetail);
+    CREATE_FUNC(S22PicDetail);
 private:
     cocos2d::CCDictionary* plistDic;
    
@@ -40,4 +40,4 @@ private:
     virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view) {};
     
 };
-#endif /* defined(__JinRiCompany__S2PicDetail__) */
+#endif /* defined(__JinRiCompany__S22PicDetail__) */

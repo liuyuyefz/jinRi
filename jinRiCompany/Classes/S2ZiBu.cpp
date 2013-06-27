@@ -13,8 +13,8 @@
 #include "AppDelegate.h"
 
 
-#include "S2ZiBuLei.h"
-#include "S2PicDetail.h"
+#include "S21ZiBuLei.h"
+#include "S22PicDetail.h"
 #include "S23DetailIntro.h"
 
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
@@ -228,11 +228,11 @@ void S2ZiBu::menuCallback(CCObject* pSender)
         case btnTag+1:
             if (1==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2ZiBuLei::create());
+                newScene->addChild(S21ZiBuLei::create());
             }
             else if(2==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2PicDetail::create());
+                newScene->addChild(S22PicDetail::create());
                 
             }
             else
@@ -244,11 +244,11 @@ void S2ZiBu::menuCallback(CCObject* pSender)
         case btnTag+2:
             if (1==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2ZiBuLei::create());
+                newScene->addChild(S21ZiBuLei::create());
             }
             else if(2==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2PicDetail::create());
+                newScene->addChild(S22PicDetail::create());
                 
             }
             else
@@ -260,11 +260,11 @@ void S2ZiBu::menuCallback(CCObject* pSender)
         case btnTag+3:
             if (1==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2ZiBuLei::create());
+                newScene->addChild(S21ZiBuLei::create());
             }
             else if(2==AppDelegate::S2SceneNum)
             {
-                newScene->addChild(S2PicDetail::create());
+                newScene->addChild(S22PicDetail::create());
                 
             }
             else

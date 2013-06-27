@@ -13,8 +13,7 @@
 #include "AppMacros.h"
 
 
-#include "S1CompanyInfo.h"
-#include "S13News.h"
+#include "S11CompanyInfo.h"
 USING_NS_CC;
 using namespace CocosDenshion;
 using namespace std;
@@ -67,7 +66,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setAnimationInterval(1.0 / 60);
     
     // create a scene. it's an autorelease object
-    CCScene *pScene = S1CompanyInfo::scene();
+    CCScene *pScene = S11CompanyInfo::scene();
     
     // run
     pDirector->runWithScene(pScene);

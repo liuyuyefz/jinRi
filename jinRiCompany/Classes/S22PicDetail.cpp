@@ -1,12 +1,12 @@
 //
-//  S2PicDetail.cpp
+//  S22PicDetail.cpp
 //  JinRiCompany
 //
 //  Created by lyy on 13-6-25.
 //
 //
 
-#include "S2PicDetail.h"
+#include "S22PicDetail.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
@@ -18,7 +18,7 @@
 
 #define s1FontName_macro "Arial"
 
-#define classPlistName_macro "S2PicDetail"
+#define classPlistName_macro "S22PicDetail"
 #define zNum 100
 #define btnTag 100
 
@@ -27,20 +27,20 @@ using namespace cocos2d;
 using namespace std;
 using namespace extension;
 
-CCScene* S2PicDetail::scene()
+CCScene* S22PicDetail::scene()
 {
 	CCScene * scene = NULL;
 	do
 	{
 		scene = CCScene::create();
-		S2PicDetail *layer = S2PicDetail::create();
+		S22PicDetail *layer = S22PicDetail::create();
 		scene->addChild(layer);
 	} while (0);
     
 	return scene;
 }
 
-bool S2PicDetail::initInfo2()
+bool S22PicDetail::initInfo2()
 {
     bool bRet = false;
 	do
@@ -56,7 +56,7 @@ bool S2PicDetail::initInfo2()
     
 	return bRet;
 }
-bool S2PicDetail::setUpSubClass2()
+bool S22PicDetail::setUpSubClass2()
 {
 	bool bRet = false;
 	do
@@ -90,7 +90,7 @@ bool S2PicDetail::setUpSubClass2()
                                                                sprite1,
                                                                sprite2,
                                                                this,
-                                                               menu_selector(S2PicDetail::S2back));
+                                                               menu_selector(S22PicDetail::S2back));
 			aItem->setTag(btnTag+1);
 			aItem->setPosition(aSprite->getPosition());
             aItem->setContentSize(aSprite->getContentSize());
@@ -118,7 +118,7 @@ bool S2PicDetail::setUpSubClass2()
                                                                sprite1,
                                                                sprite2,
                                                                this,
-                                                               menu_selector(S2PicDetail::S2menuCallback));
+                                                               menu_selector(S22PicDetail::S2menuCallback));
 			aItem->setTag(btnTag);
 			aItem->setPosition(aSprite->getPosition());
             aItem->setContentSize(aSprite->getContentSize());
@@ -139,7 +139,7 @@ bool S2PicDetail::setUpSubClass2()
                                                                sprite1,
                                                                sprite2,
                                                                this,
-                                                               menu_selector(S2PicDetail::S2menuCallback));
+                                                               menu_selector(S22PicDetail::S2menuCallback));
 			aItem->setTag(btnTag+1);
 			aItem->setPosition(aSprite->getPosition());
             aItem->setContentSize(aSprite->getContentSize());
@@ -185,12 +185,12 @@ bool S2PicDetail::setUpSubClass2()
 	return bRet;
 }
 
-void S2PicDetail::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
+void S22PicDetail::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 {
     CCLog("cell touched at index: %i", cell->getIdx());
 }
 
-CCSize S2PicDetail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
+CCSize S22PicDetail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
 {
   
     CCSprite *pSprite = CCSprite::create(showPicMap[PersonalApi::convertIntToString(idx+1)].c_str());
@@ -205,7 +205,7 @@ CCSize S2PicDetail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
   
 }
 
-CCTableViewCell* S2PicDetail::tableCellAtIndex(CCTableView *table, unsigned int idx)
+CCTableViewCell* S22PicDetail::tableCellAtIndex(CCTableView *table, unsigned int idx)
 {
     
     CCTableViewCell *pCell = table->dequeueCell();
@@ -245,12 +245,12 @@ CCTableViewCell* S2PicDetail::tableCellAtIndex(CCTableView *table, unsigned int 
     return pCell;
 }
 
-unsigned int S2PicDetail::numberOfCellsInTableView(CCTableView *table)
+unsigned int S22PicDetail::numberOfCellsInTableView(CCTableView *table)
 {
     return showPicMap.size();
 }
 
-void S2PicDetail::S2menuCallback(CCObject* pSender)
+void S22PicDetail::S2menuCallback(CCObject* pSender)
 {
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
     
@@ -269,7 +269,7 @@ void S2PicDetail::S2menuCallback(CCObject* pSender)
     }
 }
 
-void S2PicDetail::S2back(CCObject* pSender)
+void S22PicDetail::S2back(CCObject* pSender)
 {
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
     

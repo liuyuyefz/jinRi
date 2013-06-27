@@ -12,9 +12,9 @@
 #include "cocos2d.h"
 #include <string.h>
 
-#include "JinRiShangPinScene.h"
+#include "S1JinRiShangPinScene.h"
 
-class S14Brand : public JinRiShangPin
+class S14Brand : public S1JinRiShangPin
 {
 public:
     static cocos2d::CCScene* scene();

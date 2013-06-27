@@ -13,7 +13,7 @@
 
 
 #include "S13News.h"
-#include "S2ZiBuLei.h"
+#include "S21ZiBuLei.h"
 
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
 #define origin CCDirector::sharedDirector()->getVisibleOrigin()//可视区域原点

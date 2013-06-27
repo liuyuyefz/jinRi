@@ -1,25 +1,25 @@
 //
-//  S2ZiBuLei.cpp
+//  S21ZiBuLei.cpp
 //  JinRiCompany
 //
 //  Created by lyy on 13-6-24.
 //
 //
 
-#include "S2ZiBuLei.h"
+#include "S21ZiBuLei.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
 #include "AppDelegate.h"
 
-#include "S2PicDetail.h"
+#include "S22PicDetail.h"
 
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
 #define origin CCDirector::sharedDirector()->getVisibleOrigin()//可视区域原点
 
 #define s1FontName_macro "Arial"
 
-#define classPlistName_macro "S2ZiBuLei"
+#define classPlistName_macro "S21ZiBuLei"
 #define zNum 100
 #define btnTag 100
 
@@ -27,20 +27,20 @@
 using namespace cocos2d;
 using namespace std;
 
-CCScene* S2ZiBuLei::scene()
+CCScene* S21ZiBuLei::scene()
 {
 	CCScene * scene = NULL;
 	do
 	{
 		scene = CCScene::create();
-		S2ZiBuLei *layer = S2ZiBuLei::create();
+		S21ZiBuLei *layer = S21ZiBuLei::create();
 		scene->addChild(layer);
 	} while (0);
     
 	return scene;
 }
 
-bool S2ZiBuLei::initInfo2()
+bool S21ZiBuLei::initInfo2()
 {
     bool bRet = false;
 	do
@@ -56,7 +56,7 @@ bool S2ZiBuLei::initInfo2()
     
 	return bRet;
 }
-bool S2ZiBuLei::setUpSubClass2()
+bool S21ZiBuLei::setUpSubClass2()
 {
 	bool bRet = false;
 	do
@@ -91,7 +91,7 @@ bool S2ZiBuLei::setUpSubClass2()
                                                                    sprite1,
                                                                    sprite2,
                                                                    this,
-                                                                   menu_selector(S2ZiBuLei::S2ZiBuLeiMenuCallback));
+                                                                   menu_selector(S21ZiBuLei::S21ZiBuLeiMenuCallback));
                 aItem->setPosition(aPicture->getPosition());
                 aItem->setContentSize(aPicture->getContentSize());
                 aItem->setTag(btnTag+i);
@@ -114,7 +114,7 @@ bool S2ZiBuLei::setUpSubClass2()
     
 	return bRet;
 }
-void S2ZiBuLei::S2ZiBuLeiMenuCallback(CCObject* pSender)
+void S21ZiBuLei::S21ZiBuLeiMenuCallback(CCObject* pSender)
 {
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
     
@@ -138,6 +138,6 @@ void S2ZiBuLei::S2ZiBuLeiMenuCallback(CCObject* pSender)
     }
     
     CCScene *newScene = CCScene::create();
-    newScene->addChild(S2PicDetail::create());
+    newScene->addChild(S22PicDetail::create());
     CCDirector::sharedDirector()->replaceScene(newScene);
 }

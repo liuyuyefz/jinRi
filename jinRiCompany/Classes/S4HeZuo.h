@@ -12,9 +12,9 @@
 
 #include "cocos2d.h"
 #include <string.h>
-#include "S1MainScene.h"
+#include "MainScene.h"
 
-class S4HeZuo : public S1Main
+class S4HeZuo : public Main
 {
 public:
     int selectedScene;

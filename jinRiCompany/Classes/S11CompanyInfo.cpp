@@ -1,12 +1,12 @@
 //
-//  S1CompanyInfo.cpp
+//  S11CompanyInfo.cpp
 //  GreTest
 //
 //  Created by lyy on 13-6-23.
 //
 //
 
-#include "S1CompanyInfo.h"
+#include "S11CompanyInfo.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
@@ -18,7 +18,7 @@
 
 #define s1FontName_macro "Arial"
 
-#define classPlistName_macro "S1CompanyInfo"
+#define classPlistName_macro "S11CompanyInfo"
 #define zNum 100
 #define btnTag 100
 
@@ -27,20 +27,20 @@ using namespace cocos2d;
 using namespace std;
 using namespace extension;
 
-CCScene* S1CompanyInfo::scene()
+CCScene* S11CompanyInfo::scene()
 {
 	CCScene * scene = NULL;
 	do
 	{
 		scene = CCScene::create();
-		S1CompanyInfo *layer = S1CompanyInfo::create();
+		S11CompanyInfo *layer = S11CompanyInfo::create();
 		scene->addChild(layer);
 	} while (0);
     
 	return scene;
 }
 
-bool S1CompanyInfo::initInfo2()
+bool S11CompanyInfo::initInfo2()
 {
     bool bRet = false;
 	do
@@ -56,7 +56,7 @@ bool S1CompanyInfo::initInfo2()
     
 	return bRet;
 }
-bool S1CompanyInfo::setUpSubClass2()
+bool S11CompanyInfo::setUpSubClass2()
 {
 	bool bRet = false;
 	do
@@ -163,7 +163,7 @@ bool S1CompanyInfo::setUpSubClass2()
 	return bRet;
 }
 
-void S1CompanyInfo::companyMenuCallback(CCObject* pSender)
+void S11CompanyInfo::companyMenuCallback(CCObject* pSender)
 {
     
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
@@ -171,7 +171,7 @@ void S1CompanyInfo::companyMenuCallback(CCObject* pSender)
     switch (aItem->getTag())
     {
         case btnTag:
-            newScene->addChild(S1CompanyInfo::create());
+            newScene->addChild(S11CompanyInfo::create());
             
             break;
         case btnTag+1:
@@ -188,12 +188,12 @@ void S1CompanyInfo::companyMenuCallback(CCObject* pSender)
 
 
 
-void S1CompanyInfo::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
+void S11CompanyInfo::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 {
     CCLog("cell touched at index: %i", cell->getIdx());
 }
 
-CCSize S1CompanyInfo::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
+CCSize S11CompanyInfo::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
 {
     if (table == pTableView)
     {
@@ -212,7 +212,7 @@ CCSize S1CompanyInfo::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
     return CCSizeMake(0,0);
 }
 
-CCTableViewCell* S1CompanyInfo::tableCellAtIndex(CCTableView *table, unsigned int idx)
+CCTableViewCell* S11CompanyInfo::tableCellAtIndex(CCTableView *table, unsigned int idx)
 {
     
     CCTableViewCell *pCell = table->dequeueCell();
@@ -242,7 +242,7 @@ CCTableViewCell* S1CompanyInfo::tableCellAtIndex(CCTableView *table, unsigned in
     return pCell;
 }
 
-unsigned int S1CompanyInfo::numberOfCellsInTableView(CCTableView *table)
+unsigned int S11CompanyInfo::numberOfCellsInTableView(CCTableView *table)
 {
     return showPicMap.size();
 }

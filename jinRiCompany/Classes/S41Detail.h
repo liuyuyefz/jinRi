@@ -1,13 +1,13 @@
 //
-//  S4Detail.h
+//  S41Detail.h
 //  jinRiCompany
 //
 //  Created by lyy on 13-6-26.
 //
 //
 
-#ifndef __jinRiCompany__S4Detail__
-#define __jinRiCompany__S4Detail__
+#ifndef __jinRiCompany__S41Detail__
+#define __jinRiCompany__S41Detail__
 
 #include "cocos2d.h"
 #include <string.h>
@@ -15,13 +15,13 @@
 
 #include "S4HeZuo.h"
 
-class S4Detail : public S4HeZuo, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate
+class S41Detail : public S4HeZuo, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate
 {
 public:
     static cocos2d::CCScene* scene();
     virtual bool initInfo2();
     virtual bool setUpSubClass2();
-    CREATE_FUNC(S4Detail);
+    CREATE_FUNC(S41Detail);
 private:
     cocos2d::CCDictionary* plistDic;
     void companyMenuCallback(CCObject* pSender);
@@ -37,4 +37,4 @@ private:
     virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view) {};
 };
 
-#endif /* defined(__jinRiCompany__S4Detail__) */
+#endif /* defined(__jinRiCompany__S41Detail__) */

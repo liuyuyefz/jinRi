@@ -1,12 +1,12 @@
 //
-//  S4Detail.cpp
+//  S41Detail.cpp
 //  jinRiCompany
 //
 //  Created by lyy on 13-6-26.
 //
 //
 
-#include "S4Detail.h"
+#include "S41Detail.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
@@ -18,7 +18,7 @@
 
 #define s1FontName_macro "Arial"
 
-#define classPlistName_macro "S4Detail"
+#define classPlistName_macro "S41Detail"
 #define zNum 100
 #define btnTag 100
 
@@ -27,20 +27,20 @@ using namespace cocos2d;
 using namespace std;
 using namespace extension;
 
-CCScene* S4Detail::scene()
+CCScene* S41Detail::scene()
 {
 	CCScene * scene = NULL;
 	do
 	{
 		scene = CCScene::create();
-		S4Detail *layer = S4Detail::create();
+		S41Detail *layer = S41Detail::create();
 		scene->addChild(layer);
 	} while (0);
     
 	return scene;
 }
 
-bool S4Detail::initInfo2()
+bool S41Detail::initInfo2()
 {
     bool bRet = false;
 	do
@@ -56,7 +56,7 @@ bool S4Detail::initInfo2()
     
 	return bRet;
 }
-bool S4Detail::setUpSubClass2()
+bool S41Detail::setUpSubClass2()
 {
 	bool bRet = false;
 	do
@@ -163,7 +163,7 @@ bool S4Detail::setUpSubClass2()
 	return bRet;
 }
 
-void S4Detail::companyMenuCallback(CCObject* pSender)
+void S41Detail::companyMenuCallback(CCObject* pSender)
 {
     
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
@@ -171,7 +171,7 @@ void S4Detail::companyMenuCallback(CCObject* pSender)
     switch (aItem->getTag())
     {
         case btnTag:
-            newScene->addChild(S4Detail::create());
+            newScene->addChild(S41Detail::create());
             
             break;
         case btnTag+1:
@@ -188,12 +188,12 @@ void S4Detail::companyMenuCallback(CCObject* pSender)
 
 
 
-void S4Detail::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
+void S41Detail::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 {
     CCLog("cell touched at index: %i", cell->getIdx());
 }
 
-CCSize S4Detail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
+CCSize S41Detail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
 {
     if (table == pTableView)
     {
@@ -212,7 +212,7 @@ CCSize S4Detail::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
     return CCSizeMake(0,0);
 }
 
-CCTableViewCell* S4Detail::tableCellAtIndex(CCTableView *table, unsigned int idx)
+CCTableViewCell* S41Detail::tableCellAtIndex(CCTableView *table, unsigned int idx)
 {
     
     CCTableViewCell *pCell = table->dequeueCell();
@@ -242,7 +242,7 @@ CCTableViewCell* S4Detail::tableCellAtIndex(CCTableView *table, unsigned int idx
     return pCell;
 }
 
-unsigned int S4Detail::numberOfCellsInTableView(CCTableView *table)
+unsigned int S41Detail::numberOfCellsInTableView(CCTableView *table)
 {
     return showPicMap.size();
 }

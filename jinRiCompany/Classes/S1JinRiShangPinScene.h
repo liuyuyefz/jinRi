@@ -1,19 +1,19 @@
 //
-//  JinRiShangPinScene.h
+//  S1S1JinRiShangPinScene.h
 //  GreTest
 //
 //  Created by lyy on 13-6-23.
 //
 //
 
-#ifndef __GreTest__JinRiShangPinScene__
-#define __GreTest__JinRiShangPinScene__
+#ifndef __GreTest__S1S1JinRiShangPinScene__
+#define __GreTest__S1S1JinRiShangPinScene__
 
 #include "cocos2d.h"
 #include <string.h>
-#include "S1MainScene.h"
+#include "MainScene.h"
 
-class JinRiShangPin : public S1Main
+class S1JinRiShangPin : public Main
 {
 public:
     int selectedScene;
@@ -30,4 +30,4 @@ private:
     void menuCallback(CCObject* pSender);
 };
 
-#endif /* defined(__GreTest__JinRiShangPinScene__) */
+#endif /* defined(__GreTest__S1S1JinRiShangPinScene__) */

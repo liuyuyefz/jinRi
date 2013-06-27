@@ -11,9 +11,9 @@
 
 #include "cocos2d.h"
 #include <string.h>
-#include "S1MainScene.h"
+#include "MainScene.h"
 
-class S2ZiBu : public S1Main
+class S2ZiBu : public Main
 {
 public:
     int selectedScene;

@@ -1,18 +1,18 @@
-#include "S1MainScene.h"
+#include "MainScene.h"
 #include "AppMacros.h"
 #include "ScriptParser.h"
 #include "PersonalApi.h"
 #include "AppDelegate.h"
 
-#include "S1CompanyInfo.h"
-#include "S2ZiBuLei.h"
+#include "S11CompanyInfo.h"
+#include "S21ZiBuLei.h"
 #include "S31MeiShi.h"
-#include "S4Detail.h"
+#include "S41Detail.h"
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
 #define origin CCDirector::sharedDirector()->getVisibleOrigin()//可视区域原点
 
 #define s1FontName_macro "Arial"
-#define classPlistName_macro "S1Main"
+#define classPlistName_macro "Main"
 #define zNum 100
 #define btnTag 100
 
@@ -21,7 +21,7 @@ using namespace cocos2d;
 using namespace std;
 
 
-bool S1Main::init()
+bool Main::init()
 {
 	bool bRet = false;
 	do 
@@ -104,7 +104,7 @@ bool S1Main::init()
                                                                sprite1,
                                                                sprite2,
                                                                this,
-                                                               menu_selector(S1Main::menuCallback));
+                                                               menu_selector(Main::menuCallback));
 			CC_BREAK_IF(! aItem);
 			aItem->setPosition(pLabel->getPosition());
             aItem->setContentSize(pLabel->getContentSize());
@@ -131,7 +131,7 @@ bool S1Main::init()
 
 
 
-void S1Main::menuCallback(CCObject* pSender)
+void Main::menuCallback(CCObject* pSender)
 {
     CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
     
@@ -142,12 +142,12 @@ void S1Main::menuCallback(CCObject* pSender)
         case btnTag:
             AppDelegate::S1NaviSelected = 1;
             AppDelegate::S2LeftSelected = 1;
-            newScene->addChild(S1CompanyInfo::create());
+            newScene->addChild(S11CompanyInfo::create());
             
             break;
         case btnTag+1:
             AppDelegate::S1NaviSelected = 2;
-            newScene->addChild(S2ZiBuLei::create());
+            newScene->addChild(S21ZiBuLei::create());
             
             break;
             
@@ -161,7 +161,7 @@ void S1Main::menuCallback(CCObject* pSender)
         case btnTag+3:
             AppDelegate::S2LeftSelected = 1;
             AppDelegate::S1NaviSelected = 4;
-            newScene->addChild(S4Detail::create());
+            newScene->addChild(S41Detail::create());
             break;
             
         default:
