@@ -12,6 +12,7 @@
 #include "PersonalApi.h"
 
 #include "S11CompanyInfo.h"
+#include "S12Leader.h"
 #include "S13News.h"
 #include "S14Brand.h"
 
@@ -128,6 +129,10 @@ void S1JinRiShangPin::menuCallback(CCObject* pSender)
     {
         case btnTag+1:
             newScene->addChild(S11CompanyInfo::create());
+            
+            break;
+        case btnTag+2:
+            newScene->addChild(S12Leader::create());
             
             break;
         case btnTag+3:

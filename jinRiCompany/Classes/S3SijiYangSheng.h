@@ -29,6 +29,7 @@ public:
 private:
     cocos2d::CCDictionary* plistDic;
     void menuCallback(CCObject* pSender);
+    void back(CCObject* pSender);
     cocos2d::CCSprite * selectedSprite;
    
 };

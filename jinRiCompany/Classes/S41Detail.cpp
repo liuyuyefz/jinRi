@@ -63,10 +63,32 @@ bool S41Detail::setUpSubClass2()
 	{
         
         
-        CCSprite * showbigPicture = CCSprite::create("S11BigPic.png");
-        showbigPicture->setPosition( ScriptParser::getPositionFromPlist(plistDic,"S11BigPic"));
-        this->addChild(showbigPicture,zNum);
+        CCSprite * showbigPicture = CCSprite::create(ScriptParser::getImageFromPlist(plistDic,"S11BigPic"));
+        showbigPicture->setPosition(CCPointZero);//ScriptParser::getPositionFromPlist(plistDic,"S11BigPic"));
+     
 		
+        
+        m_pScrollView = CCScrollView::create();
+        
+        m_pScrollView->addChild(showbigPicture,zNum);
+        
+        scrollMaxSizeX = showbigPicture->getContentSize().width;
+        scrollMaxSizeY = showbigPicture->getContentSize().height;
+        
+        
+        
+        m_pScrollView->setPosition(ScriptParser::getPositionFromPlist(plistDic,"scrollView")); //这一步是1.0版本没有的，重要！
+        CCSize showSize = ScriptParser::getSizeFromPlist(plistDic,"showSize");
+        m_pScrollView->setContentOffset(ccp(0,-(showbigPicture->getContentSize().height-showSize.height)));
+        m_pScrollView->setViewSize(CCSizeMake(scrollMaxSizeX, showSize.height));//大小要设置得比图片的小
+        m_pScrollView->setContentSize(CCSizeMake(scrollMaxSizeX, scrollMaxSizeY));
+        
+        //设置滚动方向，
+        m_pScrollView->setDirection(kCCScrollViewDirectionVertical);
+        m_pScrollView->setDelegate(this);
+        this->addChild(m_pScrollView);
+        
+        /*
         showPicMap = ScriptParser::getGroupImageFromPlist(plistDic,"scrollPic");
         
         CCSprite * rulerSprite = CCSprite::create(showPicMap["1"].c_str());
@@ -155,7 +177,7 @@ bool S41Detail::setUpSubClass2()
             lastLabelHeight = pLabel->getContentSize().height;
             lastLabelPositionY = pLabel->getPosition().y;
         }
-        
+        */
         
 		bRet = true;
 	} while (0);
@@ -163,31 +185,8 @@ bool S41Detail::setUpSubClass2()
 	return bRet;
 }
 
-void S41Detail::companyMenuCallback(CCObject* pSender)
-{
-    
-    CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
-    CCScene *newScene = CCScene::create();
-    switch (aItem->getTag())
-    {
-        case btnTag:
-            newScene->addChild(S41Detail::create());
-            
-            break;
-        case btnTag+1:
-            //newScene->addChild(S3TestMain::create());
-            
-            break;
-            
-        default:
-            break;
-    }
-    CCDirector::sharedDirector()->replaceScene(CCTransitionSlideInR::create(0.3, newScene));//动画过场
-    
-}
 
-
-
+/*
 void S41Detail::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 {
     CCLog("cell touched at index: %i", cell->getIdx());
@@ -246,3 +245,4 @@ unsigned int S41Detail::numberOfCellsInTableView(CCTableView *table)
 {
     return showPicMap.size();
 }
+*/

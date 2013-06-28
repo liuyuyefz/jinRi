@@ -7,9 +7,9 @@
 		<key>scrollView</key>
 		<dict>
 			<key>x</key>
-			<string>520</string>
+			<string>180</string>
 			<key>y</key>
-			<string>440</string>
+			<string>540</string>
 		</dict>
 	</dict>
 	<key>fontSize</key>
@@ -29,25 +29,25 @@
 	</dict>
 	<key>image</key>
 	<dict>
-		<key>wordPic</key>
-		<string>S3WordPic.png</string>
+		<key>S31TitleImg</key>
+		<string>S31TitleImg.png</string>
 	</dict>
 	<key>groupString</key>
 	<dict>
 		<key>picIntro</key>
 		<dict>
 			<key>1</key>
-			<string>冬虫草养生DIY</string>
+			<string>冬虫草鸭</string>
 			<key>2</key>
-			<string>鹿茸美食养生DIY</string>
+			<string>冬虫草鸭</string>
 			<key>3</key>
-			<string>燕窝美食养生DIY</string>
+			<string>冬虫草鸭</string>
 			<key>4</key>
-			<string>海参美食养生DIY</string>
+			<string>冬虫草鸭</string>
 			<key>5</key>
-			<string>石斛美食养生DIY</string>
+			<string>冬虫草鸭</string>
 			<key>6</key>
-			<string>西洋参美食养生DIY</string>
+			<string>冬虫草鸭</string>
 		</dict>
 	</dict>
 	<key>groupImage</key>
@@ -55,17 +55,17 @@
 		<key>scrollPic</key>
 		<dict>
 			<key>1</key>
-			<string>S31Product_01.png</string>
+			<string>S31Yaoshan_01.png</string>
 			<key>2</key>
-			<string>S31Product_02.png</string>
+			<string>S31Yaoshan_01.png</string>
 			<key>3</key>
-			<string>S31Product_03.png</string>
+			<string>S31Yaoshan_01.png</string>
 			<key>4</key>
-			<string>S31Product_04.png</string>
+			<string>S31Yaoshan_01.png</string>
 			<key>5</key>
-			<string>S31Product_05.png</string>
+			<string>S31Yaoshan_01.png</string>
 			<key>6</key>
-			<string>S31Product_06.png</string>
+			<string>S31Yaoshan_01.png</string>
 		</dict>
 	</dict>
 </dict>

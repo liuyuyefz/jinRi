@@ -31,7 +31,7 @@
 		<key>firstTitle</key>
 		<string>40</string>
 		<key>naviTitle</key>
-		<string>25</string>
+		<string>19</string>
 	</dict>
 	<key>string</key>
 	<dict>
@@ -43,11 +43,21 @@
 		<key>naviTitle</key>
 		<dict>
 			<key>1</key>
-			<string>滋补类</string>
+			<string>前景展望</string>
 			<key>2</key>
-			<string>中药饮片</string>
+			<string>店面风采</string>
 			<key>3</key>
-			<string>炖煮系列</string>
+			<string>加盟优势</string>
+			<key>4</key>
+			<string>加盟政策</string>
+			<key>5</key>
+			<string>市场支持</string>
+			<key>6</key>
+			<string>加盟流程</string>
+			<key>7</key>
+			<string>投资问答</string>
+			<key>8</key>
+			<string>我要加盟</string>
 		</dict>
 	</dict>
 </dict>

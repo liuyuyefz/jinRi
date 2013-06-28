@@ -68,7 +68,7 @@ bool S4HeZuo::setUpSubClass()
             const char * labelStr = naviGroupStrMap[PersonalApi::convertIntToString(i+1)].c_str();
             
             CCLabelTTF *pLabel = CCLabelTTF::create(labelStr, s1FontName_macro, naviFontSize);
-            pLabel->setPosition(ccp(naviStrPosition.x+(pLabel->getContentSize().width+80)*i,naviStrPosition.y));
+            pLabel->setPosition(ccp(naviStrPosition.x+(pLabel->getContentSize().width+20)*i,naviStrPosition.y));
             pLabel->setColor(ccc3(128.0,128.0,128.0));
             this->addChild(pLabel,zNum+1);
             
@@ -76,6 +76,7 @@ bool S4HeZuo::setUpSubClass()
             {
                 pLabel->setColor(ccc3(255.0,255.0,255.0));
                 CCSprite * selectFrameSprite = CCSprite::create("PSubNavBackground.png");
+                selectFrameSprite->setScaleX(pLabel->getContentSize().width/selectFrameSprite->getContentSize().width);
                 selectFrameSprite ->setPosition(pLabel->getPosition());
                 this->addChild(selectFrameSprite,zNum);
             }

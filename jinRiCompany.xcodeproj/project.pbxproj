@@ -218,39 +218,47 @@
 		68228352177B2ACB00E0DFBF /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228351177B2ACB00E0DFBF /* CCPhysicsSprite.cpp */; };
 		68228356177B2ACB00E0DFBF /* cocos2dx-ext.mkf in Resources */ = {isa = PBXBuildFile; fileRef = 68228355177B2ACB00E0DFBF /* cocos2dx-ext.mkf */; };
 		68228358177B2ACB00E0DFBF /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68228357177B2ACB00E0DFBF /* cocos2dx-ext_public.defines.txt */; };
-		6822838E177B2B0900E0DFBF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228367177B2B0900E0DFBF /* AppDelegate.cpp */; };
-		6822838F177B2B0900E0DFBF /* CustomTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822836A177B2B0900E0DFBF /* CustomTableViewCell.cpp */; };
-		68228390177B2B0900E0DFBF /* S1JinRiShangPin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6822836C177B2B0900E0DFBF /* S1JinRiShangPin.plist */; };
-		68228391177B2B0900E0DFBF /* S1JinRiShangPinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822836D177B2B0900E0DFBF /* S1JinRiShangPinScene.cpp */; };
-		68228392177B2B0900E0DFBF /* PersonalApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822836F177B2B0900E0DFBF /* PersonalApi.cpp */; };
-		68228393177B2B0900E0DFBF /* S11CompanyInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228371177B2B0900E0DFBF /* S11CompanyInfo.cpp */; };
-		68228394177B2B0900E0DFBF /* S11CompanyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228373177B2B0900E0DFBF /* S11CompanyInfo.plist */; };
-		68228395177B2B0900E0DFBF /* Main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228374177B2B0900E0DFBF /* Main.plist */; };
-		68228396177B2B0900E0DFBF /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228375177B2B0900E0DFBF /* MainScene.cpp */; };
-		68228397177B2B0900E0DFBF /* S22PicDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228377177B2B0900E0DFBF /* S22PicDetail.cpp */; };
-		68228398177B2B0900E0DFBF /* S22PicDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228379177B2B0900E0DFBF /* S22PicDetail.plist */; };
-		68228399177B2B0900E0DFBF /* S2ZiBu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822837A177B2B0900E0DFBF /* S2ZiBu.cpp */; };
-		6822839A177B2B0900E0DFBF /* S21ZiBu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6822837C177B2B0900E0DFBF /* S21ZiBu.plist */; };
-		6822839B177B2B0900E0DFBF /* S21ZiBuLei.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822837D177B2B0900E0DFBF /* S21ZiBuLei.cpp */; };
-		6822839C177B2B0900E0DFBF /* S2ZiBuLei.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6822837F177B2B0900E0DFBF /* S2ZiBuLei.plist */; };
-		6822839D177B2B0900E0DFBF /* S13More.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228380177B2B0900E0DFBF /* S13More.cpp */; };
-		6822839E177B2B0900E0DFBF /* S13More.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228382177B2B0900E0DFBF /* S13More.plist */; };
-		6822839F177B2B0900E0DFBF /* S13News.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228383177B2B0900E0DFBF /* S13News.cpp */; };
-		682283A0177B2B0900E0DFBF /* S13News.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228385177B2B0900E0DFBF /* S13News.plist */; };
-		682283A1177B2B0900E0DFBF /* S14Brand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228386177B2B0900E0DFBF /* S14Brand.cpp */; };
-		682283A2177B2B0900E0DFBF /* S14Brand.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68228388177B2B0900E0DFBF /* S14Brand.plist */; };
-		682283A3177B2B0900E0DFBF /* S23DetailIntro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68228389177B2B0900E0DFBF /* S23DetailIntro.cpp */; };
-		682283A4177B2B0900E0DFBF /* S23DetailIntro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */; };
-		682283A5177B2B0900E0DFBF /* ScriptParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822838C177B2B0900E0DFBF /* ScriptParser.cpp */; };
-		68F2A8AB177B3CB400798B5D /* S3SijiYangSheng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */; };
-		68F2A8AD177B3DC200798B5D /* S3SijiYangSheng.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */; };
-		68F2A8B0177B3E5000798B5D /* S4HeZuo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */; };
-		68F2A8B2177B3E6E00798B5D /* S4HeZuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */; };
-		68F2A8B5177B3F2200798B5D /* S31MeiShi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */; };
-		68F2A8B8177B3F8700798B5D /* S41Detail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F2A8B6177B3F8700798B5D /* S41Detail.cpp */; };
-		68F2A8BB177B3FBB00798B5D /* S41Detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8B9177B3FBA00798B5D /* S41Detail.plist */; };
-		68F2A8BC177B3FBB00798B5D /* S31MeiShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */; };
-		68F2A8BE177B4B7C00798B5D /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 68F2A8BD177B4B7C00798B5D /* ipad */; };
+		68F08B85177D1D1C00742AC3 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 68F08B84177D1D1C00742AC3 /* ipad */; };
+		68F08F8C177D8E8000742AC3 /* S32XiaoTieShi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F4D177D8E8000742AC3 /* S32XiaoTieShi.cpp */; };
+		68F08F8D177D8E8000742AC3 /* S32XiaoTieShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F4E177D8E8000742AC3 /* S32XiaoTieShi.plist */; };
+		68F08F8E177D8E8000742AC3 /* S3SijiYangSheng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F50177D8E8000742AC3 /* S3SijiYangSheng.cpp */; };
+		68F08F8F177D8E8000742AC3 /* S41Detail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F51177D8E8000742AC3 /* S41Detail.cpp */; };
+		68F08F90177D8E8000742AC3 /* S41Detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F53177D8E8000742AC3 /* S41Detail.plist */; };
+		68F08F91177D8E8000742AC3 /* S4HeZuo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F54177D8E8000742AC3 /* S4HeZuo.cpp */; };
+		68F08F92177D8E8000742AC3 /* S4HeZuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F55177D8E8000742AC3 /* S4HeZuo.plist */; };
+		68F08F93177D8E8000742AC3 /* S12Leader.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F56177D8E8000742AC3 /* S12Leader.plist */; };
+		68F08F94177D8E8000742AC3 /* S1JinRiShangPinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F57177D8E8000742AC3 /* S1JinRiShangPinScene.cpp */; };
+		68F08F95177D8E8000742AC3 /* S12Leader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F59177D8E8000742AC3 /* S12Leader.cpp */; };
+		68F08F96177D8E8000742AC3 /* S3SijiYangSheng.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F5A177D8E8000742AC3 /* S3SijiYangSheng.plist */; };
+		68F08F97177D8E8000742AC3 /* S111Intro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F5C177D8E8000742AC3 /* S111Intro.plist */; };
+		68F08F98177D8E8000742AC3 /* S311Detail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F5D177D8E8000742AC3 /* S311Detail.cpp */; };
+		68F08F99177D8E8000742AC3 /* S111Intro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F5E177D8E8000742AC3 /* S111Intro.cpp */; };
+		68F08F9A177D8E8000742AC3 /* S311Detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F60177D8E8000742AC3 /* S311Detail.plist */; };
+		68F08F9B177D8E8000742AC3 /* S31MeiShi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F61177D8E8000742AC3 /* S31MeiShi.cpp */; };
+		68F08F9C177D8E8000742AC3 /* S31MeiShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F63177D8E8000742AC3 /* S31MeiShi.plist */; };
+		68F08F9D177D8E8000742AC3 /* S2ZiBu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F65177D8E8000742AC3 /* S2ZiBu.cpp */; };
+		68F08F9E177D8E8000742AC3 /* S21ZiBuLei.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F66177D8E8000742AC3 /* S21ZiBuLei.cpp */; };
+		68F08F9F177D8E8000742AC3 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F67177D8E8000742AC3 /* MainScene.cpp */; };
+		68F08FA0177D8E8000742AC3 /* S13More.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F68177D8E8000742AC3 /* S13More.cpp */; };
+		68F08FA1177D8E8000742AC3 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F6B177D8E8000742AC3 /* AppDelegate.cpp */; };
+		68F08FA2177D8E8000742AC3 /* S11CompanyInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F72177D8E8000742AC3 /* S11CompanyInfo.cpp */; };
+		68F08FA3177D8E8000742AC3 /* S22PicDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F73177D8E8000742AC3 /* S22PicDetail.cpp */; };
+		68F08FA4177D8E8000742AC3 /* Main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F76177D8E8000742AC3 /* Main.plist */; };
+		68F08FA5177D8E8000742AC3 /* S23DetailIntro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F77177D8E8000742AC3 /* S23DetailIntro.cpp */; };
+		68F08FA6177D8E8000742AC3 /* S22PicDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F79177D8E8000742AC3 /* S22PicDetail.plist */; };
+		68F08FA7177D8E8000742AC3 /* S23DetailIntro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F7A177D8E8000742AC3 /* S23DetailIntro.plist */; };
+		68F08FA8177D8E8000742AC3 /* S21ZiBuLei.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F7C177D8E8000742AC3 /* S21ZiBuLei.plist */; };
+		68F08FA9177D8E8000742AC3 /* S2ZiBu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F7D177D8E8000742AC3 /* S2ZiBu.plist */; };
+		68F08FAA177D8E8000742AC3 /* S14Brand.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F7E177D8E8000742AC3 /* S14Brand.plist */; };
+		68F08FAB177D8E8000742AC3 /* S14Brand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F7F177D8E8000742AC3 /* S14Brand.cpp */; };
+		68F08FAC177D8E8000742AC3 /* S13More.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F80177D8E8000742AC3 /* S13More.plist */; };
+		68F08FAD177D8E8000742AC3 /* S13News.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F81177D8E8000742AC3 /* S13News.cpp */; };
+		68F08FAE177D8E8000742AC3 /* S13News.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F82177D8E8000742AC3 /* S13News.plist */; };
+		68F08FAF177D8E8000742AC3 /* S11CompanyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F83177D8E8000742AC3 /* S11CompanyInfo.plist */; };
+		68F08FB0177D8E8000742AC3 /* S1JinRiShangPin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F08F84177D8E8000742AC3 /* S1JinRiShangPin.plist */; };
+		68F08FB1177D8E8000742AC3 /* ScriptParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F85177D8E8000742AC3 /* ScriptParser.cpp */; };
+		68F08FB2177D8E8000742AC3 /* PersonalApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F88177D8E8000742AC3 /* PersonalApi.cpp */; };
+		68F08FB3177D8E8000742AC3 /* CustomTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F08F8A177D8E8000742AC3 /* CustomTableViewCell.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -717,58 +725,70 @@
 		68228355177B2ACB00E0DFBF /* cocos2dx-ext.mkf */ = {isa = PBXFileReference; lastKnownFileType = text; name = "cocos2dx-ext.mkf"; path = "libs/extensions/proj.marmalade/cocos2dx-ext.mkf"; sourceTree = "<group>"; };
 		68228357177B2ACB00E0DFBF /* cocos2dx-ext_public.defines.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "cocos2dx-ext_public.defines.txt"; path = "libs/extensions/proj.marmalade/cocos2dx-ext_public.defines.txt"; sourceTree = "<group>"; };
 		6822835A177B2ACB00E0DFBF /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		68228367177B2B0900E0DFBF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		68228368177B2B0900E0DFBF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		68228369177B2B0900E0DFBF /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacros.h; path = Classes/AppMacros.h; sourceTree = "<group>"; };
-		6822836A177B2B0900E0DFBF /* CustomTableViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomTableViewCell.cpp; path = Classes/CustomTableViewCell.cpp; sourceTree = "<group>"; };
-		6822836B177B2B0900E0DFBF /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = Classes/CustomTableViewCell.h; sourceTree = "<group>"; };
-		6822836C177B2B0900E0DFBF /* S1JinRiShangPin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S1JinRiShangPin.plist; path = Classes/S1JinRiShangPin.plist; sourceTree = "<group>"; };
-		6822836D177B2B0900E0DFBF /* S1JinRiShangPinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S1JinRiShangPinScene.cpp; path = Classes/S1JinRiShangPinScene.cpp; sourceTree = "<group>"; };
-		6822836E177B2B0900E0DFBF /* S1JinRiShangPinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S1JinRiShangPinScene.h; path = Classes/S1JinRiShangPinScene.h; sourceTree = "<group>"; };
-		6822836F177B2B0900E0DFBF /* PersonalApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PersonalApi.cpp; path = Classes/PersonalApi.cpp; sourceTree = "<group>"; };
-		68228370177B2B0900E0DFBF /* PersonalApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalApi.h; path = Classes/PersonalApi.h; sourceTree = "<group>"; };
-		68228371177B2B0900E0DFBF /* S11CompanyInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S11CompanyInfo.cpp; path = Classes/S11CompanyInfo.cpp; sourceTree = "<group>"; };
-		68228372177B2B0900E0DFBF /* S11CompanyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S11CompanyInfo.h; path = Classes/S11CompanyInfo.h; sourceTree = "<group>"; };
-		68228373177B2B0900E0DFBF /* S11CompanyInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S11CompanyInfo.plist; path = Classes/S11CompanyInfo.plist; sourceTree = "<group>"; };
-		68228374177B2B0900E0DFBF /* Main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Main.plist; path = Classes/Main.plist; sourceTree = "<group>"; };
-		68228375177B2B0900E0DFBF /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Classes/MainScene.cpp; sourceTree = "<group>"; };
-		68228376177B2B0900E0DFBF /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Classes/MainScene.h; sourceTree = "<group>"; };
-		68228377177B2B0900E0DFBF /* S22PicDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S22PicDetail.cpp; path = Classes/S22PicDetail.cpp; sourceTree = "<group>"; };
-		68228378177B2B0900E0DFBF /* S22PicDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S22PicDetail.h; path = Classes/S22PicDetail.h; sourceTree = "<group>"; };
-		68228379177B2B0900E0DFBF /* S22PicDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S22PicDetail.plist; path = Classes/S22PicDetail.plist; sourceTree = "<group>"; };
-		6822837A177B2B0900E0DFBF /* S2ZiBu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S2ZiBu.cpp; path = Classes/S2ZiBu.cpp; sourceTree = "<group>"; };
-		6822837B177B2B0900E0DFBF /* S2ZiBu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S2ZiBu.h; path = Classes/S2ZiBu.h; sourceTree = "<group>"; };
-		6822837C177B2B0900E0DFBF /* S21ZiBu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S21ZiBu.plist; path = Classes/S21ZiBu.plist; sourceTree = "<group>"; };
-		6822837D177B2B0900E0DFBF /* S21ZiBuLei.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S21ZiBuLei.cpp; path = Classes/S21ZiBuLei.cpp; sourceTree = "<group>"; };
-		6822837E177B2B0900E0DFBF /* S21ZiBuLei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S21ZiBuLei.h; path = Classes/S21ZiBuLei.h; sourceTree = "<group>"; };
-		6822837F177B2B0900E0DFBF /* S2ZiBuLei.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S2ZiBuLei.plist; path = Classes/S2ZiBuLei.plist; sourceTree = "<group>"; };
-		68228380177B2B0900E0DFBF /* S13More.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S13More.cpp; path = Classes/S13More.cpp; sourceTree = "<group>"; };
-		68228381177B2B0900E0DFBF /* S13More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S13More.h; path = Classes/S13More.h; sourceTree = "<group>"; };
-		68228382177B2B0900E0DFBF /* S13More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S13More.plist; path = Classes/S13More.plist; sourceTree = "<group>"; };
-		68228383177B2B0900E0DFBF /* S13News.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S13News.cpp; path = Classes/S13News.cpp; sourceTree = "<group>"; };
-		68228384177B2B0900E0DFBF /* S13News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S13News.h; path = Classes/S13News.h; sourceTree = "<group>"; };
-		68228385177B2B0900E0DFBF /* S13News.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S13News.plist; path = Classes/S13News.plist; sourceTree = "<group>"; };
-		68228386177B2B0900E0DFBF /* S14Brand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S14Brand.cpp; path = Classes/S14Brand.cpp; sourceTree = "<group>"; };
-		68228387177B2B0900E0DFBF /* S14Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S14Brand.h; path = Classes/S14Brand.h; sourceTree = "<group>"; };
-		68228388177B2B0900E0DFBF /* S14Brand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S14Brand.plist; path = Classes/S14Brand.plist; sourceTree = "<group>"; };
-		68228389177B2B0900E0DFBF /* S23DetailIntro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S23DetailIntro.cpp; path = Classes/S23DetailIntro.cpp; sourceTree = "<group>"; };
-		6822838A177B2B0900E0DFBF /* S23DetailIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S23DetailIntro.h; path = Classes/S23DetailIntro.h; sourceTree = "<group>"; };
-		6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S23DetailIntro.plist; path = Classes/S23DetailIntro.plist; sourceTree = "<group>"; };
-		6822838C177B2B0900E0DFBF /* ScriptParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScriptParser.cpp; path = Classes/ScriptParser.cpp; sourceTree = "<group>"; };
-		6822838D177B2B0900E0DFBF /* ScriptParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptParser.h; path = Classes/ScriptParser.h; sourceTree = "<group>"; };
-		68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S3SijiYangSheng.cpp; path = Classes/S3SijiYangSheng.cpp; sourceTree = "<group>"; };
-		68F2A8AA177B3CB400798B5D /* S3SijiYangSheng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S3SijiYangSheng.h; path = Classes/S3SijiYangSheng.h; sourceTree = "<group>"; };
-		68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S3SijiYangSheng.plist; path = Classes/S3SijiYangSheng.plist; sourceTree = "<group>"; };
-		68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S4HeZuo.cpp; path = Classes/S4HeZuo.cpp; sourceTree = "<group>"; };
-		68F2A8AF177B3E4F00798B5D /* S4HeZuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4HeZuo.h; path = Classes/S4HeZuo.h; sourceTree = "<group>"; };
-		68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S4HeZuo.plist; path = Classes/S4HeZuo.plist; sourceTree = "<group>"; };
-		68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S31MeiShi.cpp; path = Classes/S31MeiShi.cpp; sourceTree = "<group>"; };
-		68F2A8B4177B3F2200798B5D /* S31MeiShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S31MeiShi.h; path = Classes/S31MeiShi.h; sourceTree = "<group>"; };
-		68F2A8B6177B3F8700798B5D /* S41Detail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S41Detail.cpp; path = Classes/S41Detail.cpp; sourceTree = "<group>"; };
-		68F2A8B7177B3F8700798B5D /* S41Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S41Detail.h; path = Classes/S41Detail.h; sourceTree = "<group>"; };
-		68F2A8B9177B3FBA00798B5D /* S41Detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S41Detail.plist; path = Classes/S41Detail.plist; sourceTree = "<group>"; };
-		68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S31MeiShi.plist; path = Classes/S31MeiShi.plist; sourceTree = "<group>"; };
-		68F2A8BD177B4B7C00798B5D /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipad; path = Resources/ipad; sourceTree = "<group>"; };
+		68F08B84177D1D1C00742AC3 /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipad; path = Resources/ipad; sourceTree = "<group>"; };
+		68F08F4D177D8E8000742AC3 /* S32XiaoTieShi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S32XiaoTieShi.cpp; path = Classes/S32XiaoTieShi.cpp; sourceTree = "<group>"; };
+		68F08F4E177D8E8000742AC3 /* S32XiaoTieShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S32XiaoTieShi.plist; path = Classes/S32XiaoTieShi.plist; sourceTree = "<group>"; };
+		68F08F4F177D8E8000742AC3 /* S32XiaoTieShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S32XiaoTieShi.h; path = Classes/S32XiaoTieShi.h; sourceTree = "<group>"; };
+		68F08F50177D8E8000742AC3 /* S3SijiYangSheng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S3SijiYangSheng.cpp; path = Classes/S3SijiYangSheng.cpp; sourceTree = "<group>"; };
+		68F08F51177D8E8000742AC3 /* S41Detail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S41Detail.cpp; path = Classes/S41Detail.cpp; sourceTree = "<group>"; };
+		68F08F52177D8E8000742AC3 /* S41Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S41Detail.h; path = Classes/S41Detail.h; sourceTree = "<group>"; };
+		68F08F53177D8E8000742AC3 /* S41Detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S41Detail.plist; path = Classes/S41Detail.plist; sourceTree = "<group>"; };
+		68F08F54177D8E8000742AC3 /* S4HeZuo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S4HeZuo.cpp; path = Classes/S4HeZuo.cpp; sourceTree = "<group>"; };
+		68F08F55177D8E8000742AC3 /* S4HeZuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S4HeZuo.plist; path = Classes/S4HeZuo.plist; sourceTree = "<group>"; };
+		68F08F56177D8E8000742AC3 /* S12Leader.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S12Leader.plist; path = Classes/S12Leader.plist; sourceTree = "<group>"; };
+		68F08F57177D8E8000742AC3 /* S1JinRiShangPinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S1JinRiShangPinScene.cpp; path = Classes/S1JinRiShangPinScene.cpp; sourceTree = "<group>"; };
+		68F08F58177D8E8000742AC3 /* S12Leader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S12Leader.h; path = Classes/S12Leader.h; sourceTree = "<group>"; };
+		68F08F59177D8E8000742AC3 /* S12Leader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S12Leader.cpp; path = Classes/S12Leader.cpp; sourceTree = "<group>"; };
+		68F08F5A177D8E8000742AC3 /* S3SijiYangSheng.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S3SijiYangSheng.plist; path = Classes/S3SijiYangSheng.plist; sourceTree = "<group>"; };
+		68F08F5B177D8E8000742AC3 /* S3SijiYangSheng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S3SijiYangSheng.h; path = Classes/S3SijiYangSheng.h; sourceTree = "<group>"; };
+		68F08F5C177D8E8000742AC3 /* S111Intro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S111Intro.plist; path = Classes/S111Intro.plist; sourceTree = "<group>"; };
+		68F08F5D177D8E8000742AC3 /* S311Detail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S311Detail.cpp; path = Classes/S311Detail.cpp; sourceTree = "<group>"; };
+		68F08F5E177D8E8000742AC3 /* S111Intro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S111Intro.cpp; path = Classes/S111Intro.cpp; sourceTree = "<group>"; };
+		68F08F5F177D8E8000742AC3 /* S111Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S111Intro.h; path = Classes/S111Intro.h; sourceTree = "<group>"; };
+		68F08F60177D8E8000742AC3 /* S311Detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S311Detail.plist; path = Classes/S311Detail.plist; sourceTree = "<group>"; };
+		68F08F61177D8E8000742AC3 /* S31MeiShi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S31MeiShi.cpp; path = Classes/S31MeiShi.cpp; sourceTree = "<group>"; };
+		68F08F62177D8E8000742AC3 /* S311Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S311Detail.h; path = Classes/S311Detail.h; sourceTree = "<group>"; };
+		68F08F63177D8E8000742AC3 /* S31MeiShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S31MeiShi.plist; path = Classes/S31MeiShi.plist; sourceTree = "<group>"; };
+		68F08F64177D8E8000742AC3 /* S31MeiShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S31MeiShi.h; path = Classes/S31MeiShi.h; sourceTree = "<group>"; };
+		68F08F65177D8E8000742AC3 /* S2ZiBu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S2ZiBu.cpp; path = Classes/S2ZiBu.cpp; sourceTree = "<group>"; };
+		68F08F66177D8E8000742AC3 /* S21ZiBuLei.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S21ZiBuLei.cpp; path = Classes/S21ZiBuLei.cpp; sourceTree = "<group>"; };
+		68F08F67177D8E8000742AC3 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Classes/MainScene.cpp; sourceTree = "<group>"; };
+		68F08F68177D8E8000742AC3 /* S13More.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S13More.cpp; path = Classes/S13More.cpp; sourceTree = "<group>"; };
+		68F08F69177D8E8000742AC3 /* S13More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S13More.h; path = Classes/S13More.h; sourceTree = "<group>"; };
+		68F08F6A177D8E8000742AC3 /* S4HeZuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4HeZuo.h; path = Classes/S4HeZuo.h; sourceTree = "<group>"; };
+		68F08F6B177D8E8000742AC3 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		68F08F6C177D8E8000742AC3 /* S2ZiBu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S2ZiBu.h; path = Classes/S2ZiBu.h; sourceTree = "<group>"; };
+		68F08F6D177D8E8000742AC3 /* S14Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S14Brand.h; path = Classes/S14Brand.h; sourceTree = "<group>"; };
+		68F08F6E177D8E8000742AC3 /* S13News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S13News.h; path = Classes/S13News.h; sourceTree = "<group>"; };
+		68F08F6F177D8E8000742AC3 /* S1JinRiShangPinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S1JinRiShangPinScene.h; path = Classes/S1JinRiShangPinScene.h; sourceTree = "<group>"; };
+		68F08F70177D8E8000742AC3 /* S11CompanyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S11CompanyInfo.h; path = Classes/S11CompanyInfo.h; sourceTree = "<group>"; };
+		68F08F71177D8E8000742AC3 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Classes/MainScene.h; sourceTree = "<group>"; };
+		68F08F72177D8E8000742AC3 /* S11CompanyInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S11CompanyInfo.cpp; path = Classes/S11CompanyInfo.cpp; sourceTree = "<group>"; };
+		68F08F73177D8E8000742AC3 /* S22PicDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S22PicDetail.cpp; path = Classes/S22PicDetail.cpp; sourceTree = "<group>"; };
+		68F08F74177D8E8000742AC3 /* S21ZiBuLei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S21ZiBuLei.h; path = Classes/S21ZiBuLei.h; sourceTree = "<group>"; };
+		68F08F75177D8E8000742AC3 /* S22PicDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S22PicDetail.h; path = Classes/S22PicDetail.h; sourceTree = "<group>"; };
+		68F08F76177D8E8000742AC3 /* Main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Main.plist; path = Classes/Main.plist; sourceTree = "<group>"; };
+		68F08F77177D8E8000742AC3 /* S23DetailIntro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S23DetailIntro.cpp; path = Classes/S23DetailIntro.cpp; sourceTree = "<group>"; };
+		68F08F78177D8E8000742AC3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		68F08F79177D8E8000742AC3 /* S22PicDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S22PicDetail.plist; path = Classes/S22PicDetail.plist; sourceTree = "<group>"; };
+		68F08F7A177D8E8000742AC3 /* S23DetailIntro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S23DetailIntro.plist; path = Classes/S23DetailIntro.plist; sourceTree = "<group>"; };
+		68F08F7B177D8E8000742AC3 /* S23DetailIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S23DetailIntro.h; path = Classes/S23DetailIntro.h; sourceTree = "<group>"; };
+		68F08F7C177D8E8000742AC3 /* S21ZiBuLei.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S21ZiBuLei.plist; path = Classes/S21ZiBuLei.plist; sourceTree = "<group>"; };
+		68F08F7D177D8E8000742AC3 /* S2ZiBu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S2ZiBu.plist; path = Classes/S2ZiBu.plist; sourceTree = "<group>"; };
+		68F08F7E177D8E8000742AC3 /* S14Brand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S14Brand.plist; path = Classes/S14Brand.plist; sourceTree = "<group>"; };
+		68F08F7F177D8E8000742AC3 /* S14Brand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S14Brand.cpp; path = Classes/S14Brand.cpp; sourceTree = "<group>"; };
+		68F08F80177D8E8000742AC3 /* S13More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S13More.plist; path = Classes/S13More.plist; sourceTree = "<group>"; };
+		68F08F81177D8E8000742AC3 /* S13News.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = S13News.cpp; path = Classes/S13News.cpp; sourceTree = "<group>"; };
+		68F08F82177D8E8000742AC3 /* S13News.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S13News.plist; path = Classes/S13News.plist; sourceTree = "<group>"; };
+		68F08F83177D8E8000742AC3 /* S11CompanyInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S11CompanyInfo.plist; path = Classes/S11CompanyInfo.plist; sourceTree = "<group>"; };
+		68F08F84177D8E8000742AC3 /* S1JinRiShangPin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = S1JinRiShangPin.plist; path = Classes/S1JinRiShangPin.plist; sourceTree = "<group>"; };
+		68F08F85177D8E8000742AC3 /* ScriptParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScriptParser.cpp; path = Classes/ScriptParser.cpp; sourceTree = "<group>"; };
+		68F08F86177D8E8000742AC3 /* ScriptParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptParser.h; path = Classes/ScriptParser.h; sourceTree = "<group>"; };
+		68F08F87177D8E8000742AC3 /* PersonalApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalApi.h; path = Classes/PersonalApi.h; sourceTree = "<group>"; };
+		68F08F88177D8E8000742AC3 /* PersonalApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PersonalApi.cpp; path = Classes/PersonalApi.cpp; sourceTree = "<group>"; };
+		68F08F89177D8E8000742AC3 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacros.h; path = Classes/AppMacros.h; sourceTree = "<group>"; };
+		68F08F8A177D8E8000742AC3 /* CustomTableViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomTableViewCell.cpp; path = Classes/CustomTableViewCell.cpp; sourceTree = "<group>"; };
+		68F08F8B177D8E8000742AC3 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = Classes/CustomTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -839,7 +859,7 @@
 		6822808E177B2AC100E0DFBF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				68F2A8BD177B4B7C00798B5D /* ipad */,
+				68F08B84177D1D1C00742AC3 /* ipad */,
 				6822808F177B2AC100E0DFBF /* CloseNormal.png */,
 				68228091177B2AC100E0DFBF /* CloseSelected.png */,
 				68228093177B2AC100E0DFBF /* Default.png */,
@@ -1770,57 +1790,69 @@
 		6822835B177B2ACB00E0DFBF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				68228374177B2B0900E0DFBF /* Main.plist */,
-				68228375177B2B0900E0DFBF /* MainScene.cpp */,
-				68228376177B2B0900E0DFBF /* MainScene.h */,
-				6822836C177B2B0900E0DFBF /* S1JinRiShangPin.plist */,
-				6822836D177B2B0900E0DFBF /* S1JinRiShangPinScene.cpp */,
-				6822836E177B2B0900E0DFBF /* S1JinRiShangPinScene.h */,
-				68228371177B2B0900E0DFBF /* S11CompanyInfo.cpp */,
-				68228372177B2B0900E0DFBF /* S11CompanyInfo.h */,
-				68228373177B2B0900E0DFBF /* S11CompanyInfo.plist */,
-				68228380177B2B0900E0DFBF /* S13More.cpp */,
-				68228381177B2B0900E0DFBF /* S13More.h */,
-				68228382177B2B0900E0DFBF /* S13More.plist */,
-				68228383177B2B0900E0DFBF /* S13News.cpp */,
-				68228384177B2B0900E0DFBF /* S13News.h */,
-				68228385177B2B0900E0DFBF /* S13News.plist */,
-				68228386177B2B0900E0DFBF /* S14Brand.cpp */,
-				68228387177B2B0900E0DFBF /* S14Brand.h */,
-				68228388177B2B0900E0DFBF /* S14Brand.plist */,
-				6822837A177B2B0900E0DFBF /* S2ZiBu.cpp */,
-				6822837B177B2B0900E0DFBF /* S2ZiBu.h */,
-				6822837D177B2B0900E0DFBF /* S21ZiBuLei.cpp */,
-				6822837E177B2B0900E0DFBF /* S21ZiBuLei.h */,
-				6822837C177B2B0900E0DFBF /* S21ZiBu.plist */,
-				68228377177B2B0900E0DFBF /* S22PicDetail.cpp */,
-				68228378177B2B0900E0DFBF /* S22PicDetail.h */,
-				68228379177B2B0900E0DFBF /* S22PicDetail.plist */,
-				6822837F177B2B0900E0DFBF /* S2ZiBuLei.plist */,
-				68228389177B2B0900E0DFBF /* S23DetailIntro.cpp */,
-				6822838A177B2B0900E0DFBF /* S23DetailIntro.h */,
-				6822838B177B2B0900E0DFBF /* S23DetailIntro.plist */,
-				68F2A8A9177B3CB400798B5D /* S3SijiYangSheng.cpp */,
-				68F2A8AA177B3CB400798B5D /* S3SijiYangSheng.h */,
-				68F2A8AC177B3DC200798B5D /* S3SijiYangSheng.plist */,
-				68F2A8B3177B3F2200798B5D /* S31MeiShi.cpp */,
-				68F2A8B4177B3F2200798B5D /* S31MeiShi.h */,
-				68F2A8BA177B3FBB00798B5D /* S31MeiShi.plist */,
-				68F2A8AE177B3E4F00798B5D /* S4HeZuo.cpp */,
-				68F2A8AF177B3E4F00798B5D /* S4HeZuo.h */,
-				68F2A8B1177B3E6E00798B5D /* S4HeZuo.plist */,
-				68F2A8B6177B3F8700798B5D /* S41Detail.cpp */,
-				68F2A8B7177B3F8700798B5D /* S41Detail.h */,
-				68F2A8B9177B3FBA00798B5D /* S41Detail.plist */,
-				68228367177B2B0900E0DFBF /* AppDelegate.cpp */,
-				68228368177B2B0900E0DFBF /* AppDelegate.h */,
-				68228369177B2B0900E0DFBF /* AppMacros.h */,
-				6822836A177B2B0900E0DFBF /* CustomTableViewCell.cpp */,
-				6822836B177B2B0900E0DFBF /* CustomTableViewCell.h */,
-				6822836F177B2B0900E0DFBF /* PersonalApi.cpp */,
-				68228370177B2B0900E0DFBF /* PersonalApi.h */,
-				6822838C177B2B0900E0DFBF /* ScriptParser.cpp */,
-				6822838D177B2B0900E0DFBF /* ScriptParser.h */,
+				68F08F71177D8E8000742AC3 /* MainScene.h */,
+				68F08F67177D8E8000742AC3 /* MainScene.cpp */,
+				68F08F57177D8E8000742AC3 /* S1JinRiShangPinScene.cpp */,
+				68F08F6F177D8E8000742AC3 /* S1JinRiShangPinScene.h */,
+				68F08F84177D8E8000742AC3 /* S1JinRiShangPin.plist */,
+				68F08F72177D8E8000742AC3 /* S11CompanyInfo.cpp */,
+				68F08F70177D8E8000742AC3 /* S11CompanyInfo.h */,
+				68F08F83177D8E8000742AC3 /* S11CompanyInfo.plist */,
+				68F08F58177D8E8000742AC3 /* S12Leader.h */,
+				68F08F59177D8E8000742AC3 /* S12Leader.cpp */,
+				68F08F56177D8E8000742AC3 /* S12Leader.plist */,
+				68F08F80177D8E8000742AC3 /* S13More.plist */,
+				68F08F81177D8E8000742AC3 /* S13News.cpp */,
+				68F08F82177D8E8000742AC3 /* S13News.plist */,
+				68F08F68177D8E8000742AC3 /* S13More.cpp */,
+				68F08F69177D8E8000742AC3 /* S13More.h */,
+				68F08F6E177D8E8000742AC3 /* S13News.h */,
+				68F08F6D177D8E8000742AC3 /* S14Brand.h */,
+				68F08F7E177D8E8000742AC3 /* S14Brand.plist */,
+				68F08F7F177D8E8000742AC3 /* S14Brand.cpp */,
+				68F08F6C177D8E8000742AC3 /* S2ZiBu.h */,
+				68F08F65177D8E8000742AC3 /* S2ZiBu.cpp */,
+				68F08F7D177D8E8000742AC3 /* S2ZiBu.plist */,
+				68F08F74177D8E8000742AC3 /* S21ZiBuLei.h */,
+				68F08F66177D8E8000742AC3 /* S21ZiBuLei.cpp */,
+				68F08F7C177D8E8000742AC3 /* S21ZiBuLei.plist */,
+				68F08F75177D8E8000742AC3 /* S22PicDetail.h */,
+				68F08F73177D8E8000742AC3 /* S22PicDetail.cpp */,
+				68F08F79177D8E8000742AC3 /* S22PicDetail.plist */,
+				68F08F77177D8E8000742AC3 /* S23DetailIntro.cpp */,
+				68F08F7B177D8E8000742AC3 /* S23DetailIntro.h */,
+				68F08F7A177D8E8000742AC3 /* S23DetailIntro.plist */,
+				68F08F5A177D8E8000742AC3 /* S3SijiYangSheng.plist */,
+				68F08F5B177D8E8000742AC3 /* S3SijiYangSheng.h */,
+				68F08F60177D8E8000742AC3 /* S311Detail.plist */,
+				68F08F61177D8E8000742AC3 /* S31MeiShi.cpp */,
+				68F08F5D177D8E8000742AC3 /* S311Detail.cpp */,
+				68F08F62177D8E8000742AC3 /* S311Detail.h */,
+				68F08F63177D8E8000742AC3 /* S31MeiShi.plist */,
+				68F08F64177D8E8000742AC3 /* S31MeiShi.h */,
+				68F08F4D177D8E8000742AC3 /* S32XiaoTieShi.cpp */,
+				68F08F4E177D8E8000742AC3 /* S32XiaoTieShi.plist */,
+				68F08F4F177D8E8000742AC3 /* S32XiaoTieShi.h */,
+				68F08F50177D8E8000742AC3 /* S3SijiYangSheng.cpp */,
+				68F08F5C177D8E8000742AC3 /* S111Intro.plist */,
+				68F08F5E177D8E8000742AC3 /* S111Intro.cpp */,
+				68F08F5F177D8E8000742AC3 /* S111Intro.h */,
+				68F08F51177D8E8000742AC3 /* S41Detail.cpp */,
+				68F08F52177D8E8000742AC3 /* S41Detail.h */,
+				68F08F53177D8E8000742AC3 /* S41Detail.plist */,
+				68F08F54177D8E8000742AC3 /* S4HeZuo.cpp */,
+				68F08F55177D8E8000742AC3 /* S4HeZuo.plist */,
+				68F08F6A177D8E8000742AC3 /* S4HeZuo.h */,
+				68F08F76177D8E8000742AC3 /* Main.plist */,
+				68F08F6B177D8E8000742AC3 /* AppDelegate.cpp */,
+				68F08F78177D8E8000742AC3 /* AppDelegate.h */,
+				68F08F85177D8E8000742AC3 /* ScriptParser.cpp */,
+				68F08F86177D8E8000742AC3 /* ScriptParser.h */,
+				68F08F87177D8E8000742AC3 /* PersonalApi.h */,
+				68F08F88177D8E8000742AC3 /* PersonalApi.cpp */,
+				68F08F89177D8E8000742AC3 /* AppMacros.h */,
+				68F08F8A177D8E8000742AC3 /* CustomTableViewCell.cpp */,
+				68F08F8B177D8E8000742AC3 /* CustomTableViewCell.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1890,21 +1922,25 @@
 				682282AA177B2AC900E0DFBF /* project.pbxproj in Resources */,
 				68228356177B2ACB00E0DFBF /* cocos2dx-ext.mkf in Resources */,
 				68228358177B2ACB00E0DFBF /* cocos2dx-ext_public.defines.txt in Resources */,
-				68228390177B2B0900E0DFBF /* S1JinRiShangPin.plist in Resources */,
-				68228394177B2B0900E0DFBF /* S11CompanyInfo.plist in Resources */,
-				68228395177B2B0900E0DFBF /* Main.plist in Resources */,
-				68228398177B2B0900E0DFBF /* S22PicDetail.plist in Resources */,
-				6822839A177B2B0900E0DFBF /* S21ZiBu.plist in Resources */,
-				6822839C177B2B0900E0DFBF /* S2ZiBuLei.plist in Resources */,
-				6822839E177B2B0900E0DFBF /* S13More.plist in Resources */,
-				682283A0177B2B0900E0DFBF /* S13News.plist in Resources */,
-				682283A2177B2B0900E0DFBF /* S14Brand.plist in Resources */,
-				682283A4177B2B0900E0DFBF /* S23DetailIntro.plist in Resources */,
-				68F2A8AD177B3DC200798B5D /* S3SijiYangSheng.plist in Resources */,
-				68F2A8B2177B3E6E00798B5D /* S4HeZuo.plist in Resources */,
-				68F2A8BB177B3FBB00798B5D /* S41Detail.plist in Resources */,
-				68F2A8BC177B3FBB00798B5D /* S31MeiShi.plist in Resources */,
-				68F2A8BE177B4B7C00798B5D /* ipad in Resources */,
+				68F08B85177D1D1C00742AC3 /* ipad in Resources */,
+				68F08F8D177D8E8000742AC3 /* S32XiaoTieShi.plist in Resources */,
+				68F08F90177D8E8000742AC3 /* S41Detail.plist in Resources */,
+				68F08F92177D8E8000742AC3 /* S4HeZuo.plist in Resources */,
+				68F08F93177D8E8000742AC3 /* S12Leader.plist in Resources */,
+				68F08F96177D8E8000742AC3 /* S3SijiYangSheng.plist in Resources */,
+				68F08F97177D8E8000742AC3 /* S111Intro.plist in Resources */,
+				68F08F9A177D8E8000742AC3 /* S311Detail.plist in Resources */,
+				68F08F9C177D8E8000742AC3 /* S31MeiShi.plist in Resources */,
+				68F08FA4177D8E8000742AC3 /* Main.plist in Resources */,
+				68F08FA6177D8E8000742AC3 /* S22PicDetail.plist in Resources */,
+				68F08FA7177D8E8000742AC3 /* S23DetailIntro.plist in Resources */,
+				68F08FA8177D8E8000742AC3 /* S21ZiBuLei.plist in Resources */,
+				68F08FA9177D8E8000742AC3 /* S2ZiBu.plist in Resources */,
+				68F08FAA177D8E8000742AC3 /* S14Brand.plist in Resources */,
+				68F08FAC177D8E8000742AC3 /* S13More.plist in Resources */,
+				68F08FAE177D8E8000742AC3 /* S13News.plist in Resources */,
+				68F08FAF177D8E8000742AC3 /* S11CompanyInfo.plist in Resources */,
+				68F08FB0177D8E8000742AC3 /* S1JinRiShangPin.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2101,24 +2137,28 @@
 				68228349177B2ACB00E0DFBF /* HttpClient.cpp in Sources */,
 				6822834F177B2ACB00E0DFBF /* CCPhysicsDebugNode.cpp in Sources */,
 				68228352177B2ACB00E0DFBF /* CCPhysicsSprite.cpp in Sources */,
-				6822838E177B2B0900E0DFBF /* AppDelegate.cpp in Sources */,
-				6822838F177B2B0900E0DFBF /* CustomTableViewCell.cpp in Sources */,
-				68228391177B2B0900E0DFBF /* S1JinRiShangPinScene.cpp in Sources */,
-				68228392177B2B0900E0DFBF /* PersonalApi.cpp in Sources */,
-				68228393177B2B0900E0DFBF /* S11CompanyInfo.cpp in Sources */,
-				68228396177B2B0900E0DFBF /* MainScene.cpp in Sources */,
-				68228397177B2B0900E0DFBF /* S22PicDetail.cpp in Sources */,
-				68228399177B2B0900E0DFBF /* S2ZiBu.cpp in Sources */,
-				6822839B177B2B0900E0DFBF /* S21ZiBuLei.cpp in Sources */,
-				6822839D177B2B0900E0DFBF /* S13More.cpp in Sources */,
-				6822839F177B2B0900E0DFBF /* S13News.cpp in Sources */,
-				682283A1177B2B0900E0DFBF /* S14Brand.cpp in Sources */,
-				682283A3177B2B0900E0DFBF /* S23DetailIntro.cpp in Sources */,
-				682283A5177B2B0900E0DFBF /* ScriptParser.cpp in Sources */,
-				68F2A8AB177B3CB400798B5D /* S3SijiYangSheng.cpp in Sources */,
-				68F2A8B0177B3E5000798B5D /* S4HeZuo.cpp in Sources */,
-				68F2A8B5177B3F2200798B5D /* S31MeiShi.cpp in Sources */,
-				68F2A8B8177B3F8700798B5D /* S41Detail.cpp in Sources */,
+				68F08F8C177D8E8000742AC3 /* S32XiaoTieShi.cpp in Sources */,
+				68F08F8E177D8E8000742AC3 /* S3SijiYangSheng.cpp in Sources */,
+				68F08F8F177D8E8000742AC3 /* S41Detail.cpp in Sources */,
+				68F08F91177D8E8000742AC3 /* S4HeZuo.cpp in Sources */,
+				68F08F94177D8E8000742AC3 /* S1JinRiShangPinScene.cpp in Sources */,
+				68F08F95177D8E8000742AC3 /* S12Leader.cpp in Sources */,
+				68F08F98177D8E8000742AC3 /* S311Detail.cpp in Sources */,
+				68F08F99177D8E8000742AC3 /* S111Intro.cpp in Sources */,
+				68F08F9B177D8E8000742AC3 /* S31MeiShi.cpp in Sources */,
+				68F08F9D177D8E8000742AC3 /* S2ZiBu.cpp in Sources */,
+				68F08F9E177D8E8000742AC3 /* S21ZiBuLei.cpp in Sources */,
+				68F08F9F177D8E8000742AC3 /* MainScene.cpp in Sources */,
+				68F08FA0177D8E8000742AC3 /* S13More.cpp in Sources */,
+				68F08FA1177D8E8000742AC3 /* AppDelegate.cpp in Sources */,
+				68F08FA2177D8E8000742AC3 /* S11CompanyInfo.cpp in Sources */,
+				68F08FA3177D8E8000742AC3 /* S22PicDetail.cpp in Sources */,
+				68F08FA5177D8E8000742AC3 /* S23DetailIntro.cpp in Sources */,
+				68F08FAB177D8E8000742AC3 /* S14Brand.cpp in Sources */,
+				68F08FAD177D8E8000742AC3 /* S13News.cpp in Sources */,
+				68F08FB1177D8E8000742AC3 /* ScriptParser.cpp in Sources */,
+				68F08FB2177D8E8000742AC3 /* PersonalApi.cpp in Sources */,
+				68F08FB3177D8E8000742AC3 /* CustomTableViewCell.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2129,7 +2169,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: BIN WU (X3XLSBY2HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: BIN WU (X3XLSBY2HH)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2150,7 +2191,9 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2160,7 +2203,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: BIN WU (X3XLSBY2HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: BIN WU (X3XLSBY2HH)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
@@ -2178,8 +2222,10 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2189,12 +2235,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: BIN WU (X3XLSBY2HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: BIN WU (X3XLSBY2HH)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jinRiCompany/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = jinRiCompany/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/jinRiCompany/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -2205,6 +2254,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2213,11 +2264,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: BIN WU (X3XLSBY2HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: BIN WU (X3XLSBY2HH)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jinRiCompany/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = jinRiCompany/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/jinRiCompany/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -2228,6 +2282,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CBFBFF9-A4B1-43C7-A07D-0D7686BB3B74";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

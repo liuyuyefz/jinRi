@@ -12,6 +12,8 @@
 #include "PersonalApi.h"
 #include "AppDelegate.h"
 
+#include "S31MeiShi.h"
+#include "S32XiaoTieShi.h"
 
 #define visibleSize CCDirector::sharedDirector()->getVisibleSize()//可视区域size
 #define origin CCDirector::sharedDirector()->getVisibleOrigin()//可视区域原点
@@ -96,7 +98,14 @@ bool S3SijiYangSheng::setUpSubClass()
             
         }
         
-                
+        const char * imageName = "S31Back.png";
+        CCMenuItemImage * aItemImage = CCMenuItemImage::create(imageName,
+                                                               imageName,
+                                                               this,
+                                                               menu_selector(S3SijiYangSheng::back));
+        
+        aItemImage->setPosition(ScriptParser::getPositionFromPlist(plistDic, "back"));
+        _menu->addChild(aItemImage,zNum);
         
         
         CC_BREAK_IF(! setUpSubClass2());
@@ -117,8 +126,10 @@ void S3SijiYangSheng::menuCallback(CCObject* pSender)
     switch (aItem->getTag())
     {
         case btnTag+1:
+            newScene->addChild(S31MeiShi::create());
             break;
         case btnTag+2:
+            newScene->addChild(S32XiaoTieShi::create());
             break;
         case btnTag+3:
             
@@ -130,4 +141,10 @@ void S3SijiYangSheng::menuCallback(CCObject* pSender)
     CCDirector::sharedDirector()->replaceScene(CCTransitionSlideInL::create(0.5, newScene));//动画过场
 }
 
+void S3SijiYangSheng::back(CCObject* pSender)
+{
+    CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
+    CCScene *newScene = CCScene::create();
 
+    CCDirector::sharedDirector()->replaceScene(CCTransitionSlideInL::create(0.5, newScene));//动画过场
+}
