@@ -7,15 +7,34 @@
 		<key>S23DetailPage</key>
 		<dict>
 			<key>x</key>
-			<string>580</string>
+			<string>220</string>
 			<key>y</key>
-			<string>320</string>
+			<string>80</string>
+		</dict>
+		<key>S23RightDongImg</key>
+		<dict>
+			<key>x</key>
+			<string>400</string>
+			<key>y</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>size</key>
+	<dict>
+		<key>showSize</key>
+		<dict>
+			<key>width</key>
+			<string>500</string>
+			<key>height</key>
+			<string>500</string>
 		</dict>
 	</dict>
 	<key>image</key>
 	<dict>
 		<key>S23DetailPage</key>
 		<string>S23DetailPage.png</string>
+		<key>S23RightDongImg</key>
+		<string>S23RightDongImg.png</string>
 	</dict>
 </dict>
 </plist>

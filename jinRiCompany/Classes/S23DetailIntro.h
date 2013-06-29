@@ -15,7 +15,7 @@
 
 #include "S2ZiBu.h"
 
-class S23DetailIntro : public S2ZiBu, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate
+class S23DetailIntro : public S2ZiBu, public cocos2d::extension::CCScrollViewDelegate
 {
 public:
     static cocos2d::CCScene* scene();
@@ -25,19 +25,21 @@ public:
 private:
     cocos2d::CCDictionary* plistDic;
     
+    cocos2d::extension::CCScrollView *m_pScrollView;
+    
+    float scrollMaxSizeX;
+    float scrollMaxSizeY;
+    
+    virtual void scrollViewDidScroll(cocos2d::extension::CCScrollView* view){};
+    virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view) {};
+    
     std::map<std::string, std::string> showPicMap;
     std::map<std::string, std::string> showStrMap;
     
     void S2menuCallback(CCObject* pSender);
+    void showBigPic(CCObject* pSender);
     void S2back(CCObject* pSender);
-    cocos2d::extension::CCTableView * pTableView;
-    
-    virtual void tableCellTouched(cocos2d::extension::CCTableView* table, cocos2d::extension::CCTableViewCell* cell);
-    virtual cocos2d::CCSize tableCellSizeForIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
-    virtual cocos2d::extension::CCTableViewCell* tableCellAtIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
-    virtual unsigned int numberOfCellsInTableView(cocos2d::extension::CCTableView *table);
-    virtual void scrollViewDidScroll(cocos2d::extension::CCScrollView* view) {};
-    virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view) {};
+
     
 };
 #endif /* defined(__JinRiCompany__S23DetailIntro__) */

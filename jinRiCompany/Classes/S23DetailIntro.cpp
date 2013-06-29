@@ -62,28 +62,41 @@ bool S23DetailIntro::setUpSubClass2()
 	do
 	{
     
-        
-        CCSprite * aSprite = CCSprite::create(ScriptParser::getImageFromPlist(plistDic,"S23DetailPage"));
-        
-        CCPoint backPosition = ScriptParser::getPositionFromPlist(plistDic,"S23DetailPage");
-        aSprite->setPosition(backPosition);
-        this->addChild(aSprite,zNum);
+        CCSprite * showbigPicture = CCSprite::create(ScriptParser::getImageFromPlist(plistDic,"S23DetailPage"));
+        showbigPicture->setPosition(CCPointZero);
         
         
-       /*
-        showPicMap = ScriptParser::getGroupImageFromPlist(plistDic,"scrollPic");
-        CCSize scrollPicSize = ScriptParser::getSizeFromPlist(plistDic,"scrollPic");
-        CCPoint scrollPicPosition = ScriptParser::getPositionFromPlist(plistDic,"scrollPic");
-        pTableView = CCTableView::create(this, scrollPicSize);
-		pTableView->setDirection(kCCScrollViewDirectionHorizontal);
-		pTableView->setAnchorPoint(ccp(0.0,1.0));
-        pTableView->setPosition(scrollPicPosition);
-		pTableView->setDelegate(this);
-		pTableView->setVerticalFillOrder(kCCTableViewFillTopDown);
-        this->addChild(pTableView,zNum+1);
-		pTableView->reloadData();
+        m_pScrollView = CCScrollView::create();
         
-        */
+        m_pScrollView->addChild(showbigPicture,zNum);
+        
+        scrollMaxSizeX = showbigPicture->getContentSize().width;
+        scrollMaxSizeY = showbigPicture->getContentSize().height;
+        
+        
+        const char * imageName = ScriptParser::getImageFromPlist(plistDic,"S23RightDongImg");
+        CCMenuItemImage * aItemImage = CCMenuItemImage::create(imageName,
+                                                               imageName,
+                                                               this,
+                                                               menu_selector(S23DetailIntro::showBigPic));
+        
+        aItemImage->setPosition(ScriptParser::getPositionFromPlist(plistDic,"S23RightDongImg"));
+        CCMenu * aMenu = CCMenu::create(NULL);
+        aMenu->setPosition(CCPointZero);
+        aMenu->addChild(aItemImage,zNum);
+        m_pScrollView->addChild(aMenu, zNum);
+        
+        
+        m_pScrollView->setPosition(ScriptParser::getPositionFromPlist(plistDic,"S23DetailPage")); //这一步是1.0版本没有的，重要！
+        CCSize showSize = ScriptParser::getSizeFromPlist(plistDic,"showSize");
+        m_pScrollView->setContentOffset(ccp(0,-(showbigPicture->getContentSize().height-showSize.height)));
+        m_pScrollView->setViewSize(CCSizeMake(scrollMaxSizeX, showSize.height));//大小要设置得比图片的小
+        m_pScrollView->setContentSize(CCSizeMake(scrollMaxSizeX, scrollMaxSizeY));
+        
+        //设置滚动方向，
+        m_pScrollView->setDirection(kCCScrollViewDirectionVertical);
+        m_pScrollView->setDelegate(this);
+        this->addChild(m_pScrollView);
         
 		bRet = true;
 	} while (0);
@@ -91,79 +104,9 @@ bool S23DetailIntro::setUpSubClass2()
 	return bRet;
 }
 
-void S23DetailIntro::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
+void S23DetailIntro::showBigPic(CCObject* pSender)
 {
-    CCLog("cell touched at index: %i", cell->getIdx());
-}
 
-CCSize S23DetailIntro::tableCellSizeForIndex(CCTableView *table,unsigned int idx)
-{
-    
-    CCSprite *pSprite = CCSprite::create(showPicMap[PersonalApi::convertIntToString(idx+1)].c_str());
-    
-    const char * labelStr = showStrMap[PersonalApi::convertIntToString(idx)].c_str();
-    float fontSize = pSprite->getContentSize().height;
-    CCLabelTTF *pLabel = CCLabelTTF::create(labelStr, s1FontName_macro, fontSize);
-    
-    float size1 = pLabel->getContentSize().height;
-    float size2 = pSprite->getContentSize().height;
-    return CCSizeMake(table->getContentSize().width, size1+size2);
-    
-}
-
-CCTableViewCell* S23DetailIntro::tableCellAtIndex(CCTableView *table, unsigned int idx)
-{
-    
-    CCTableViewCell *pCell = table->dequeueCell();
-    if (!pCell)
-    {
-        
-        pCell = new CCTableViewCell();
-        pCell->autorelease();
-        
-        CCSprite *pSprite = CCSprite::create(showPicMap[PersonalApi::convertIntToString(idx+1)].c_str());
-        pSprite->setAnchorPoint(CCPointZero);
-        pSprite->setTag(123);
-        pSprite->setPosition(CCPointZero);
-        pCell->addChild(pSprite);
-        
-    }
-    else
-    {
-        
-        CCSprite *pSprite = (CCSprite*)pCell->getChildByTag(123);
-        //cocos2d-x 动态修改图片
-        // pSprite->setTexture(CCTextureCache::sharedTextureCache()->addImage(showPicMap[PersonalApi::convertIntToString(idx+1)].c_str()));
-        
-    }
-    
-    
-    return pCell;
-}
-
-unsigned int S23DetailIntro::numberOfCellsInTableView(CCTableView *table)
-{
-    CCLOG("xx==%d",showPicMap.size());
-    return showPicMap.size();
-}
-
-void S23DetailIntro::S2menuCallback(CCObject* pSender)
-{
-    CCMenuItemSprite *aItem = (CCMenuItemSprite *)pSender;
-    
-    switch (aItem->getTag())
-    {
-        case btnTag:
-            ;
-            break;
-        case btnTag+1:
-            //newScene->addChild(S13News::create());
-            
-            break;
-            
-        default:
-            break;
-    }
 }
 
 void S23DetailIntro::S2back(CCObject* pSender)
