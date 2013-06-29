@@ -173,22 +173,6 @@ void S31MeiShi::S31MeiShiCallback(CCObject* pSender)
     
 }
 
-bool S31MeiShi::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)
-{
-    return true;
-}
-void S31MeiShi::ccTouchMoved(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)
-{
-    
-}
-void S31MeiShi::ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)
-{
-    
-}
-void S31MeiShi::ccTouchCancelled(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)
-{
-    
-}
 void S31MeiShi::timer(CCTime dt)
 {
     countOffSet -=OffSetY;

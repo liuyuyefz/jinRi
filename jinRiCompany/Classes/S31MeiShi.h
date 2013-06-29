@@ -43,11 +43,6 @@ private:
     virtual void scrollViewDidScroll(cocos2d::extension::CCScrollView* view){};
     virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view) {};
     
-    virtual bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
-    virtual void ccTouchMoved(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
-    virtual void ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
-    virtual void ccTouchCancelled(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
-    
     /*
     cocos2d::extension::CCTableView * pTableView;
     
